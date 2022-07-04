@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  background-image: url(background.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+#container{
+  width: 1200px;
+  height: 850px;
+  margin: auto;
+  background-color: #0000009c;
+  border-radius: 1%;
+  margin-top: 20px;
+}
+
+.logo{
+    width: auto;
+    height: 15%;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+
+.titolo{
+  text-align: center;
+  color: #d3d328;
+  font-size: 20px;
+}
+
+.rettangolo{
+  background-color: #d5d511;
+  width: 1000px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tasto-sx{
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 350px;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 1% solid black;
+}
+.tasto-centro{
+  font-size: 13px;
+  text-align: center;
+  margin-top: 13px;
+  display: inline-block;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 1% solid black;
+}
+.tasto-dx{
+  font-size: 13px;
+  text-align: center;
+  margin-top: 13px;
+  display: inline-block;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 1% solid black;
+}
+
+.monopattino{
+  color: white;
+  margin-left: 100px;
+}
+
+.checkbox{
+  display: inline-block;
+  margin-left: 5px;
+  }
+
+#gino{
+  display: inline-block;
+}
+#mike{
+  display: inline-block;
+}
+#fede{
+  display: inline-block;
+}
+
+.distanza{
+  font-size: 18px;
+
+}
+#carica-gino{
+  width: 350px;
+  height: 25px;;
+  background-color: #60ef60;
+  border-radius: 4px;
+}
+#carica-mike{
+  width: 600px;
+  height: 25px;
+  background-color: #ffb329;
+  border-radius: 4px;
+}
+#carica-fede{
+  width: 140px;
+  height: 25px;
+  background-color: #e73e3e;
+  border-radius: 4px;
+}
